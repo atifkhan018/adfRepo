@@ -1,0 +1,19 @@
+{
+	"name": "AzureSqlDatabase2",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"parameters": {
+			"username": {
+				"type": "string"
+			},
+			"passsword": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=gayaaspiresqlserver.database.windows.net;Initial Catalog=52169162sqldatabase;User ID=@{linkedService().username};Password=@{linkedService().passsword}"
+		}
+	}
+}

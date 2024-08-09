@@ -21,25 +21,18 @@
 		},
 		"schema": [
 			{
-				"name": "EmployeeID",
+				"name": "id",
 				"type": "String"
 			},
 			{
-				"name": "Name",
+				"name": "name",
 				"type": "String"
 			},
 			{
-				"name": "gender",
-				"type": "String"
-			},
-			{
-				"name": "country",
-				"type": "String"
-			},
-			{
-				"name": "Department",
+				"name": "date",
 				"type": "String"
 			}
 		]
-	}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
 }
